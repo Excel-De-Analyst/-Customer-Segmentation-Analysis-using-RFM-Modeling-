@@ -60,12 +60,12 @@ This flips 1→5, 2→4, 3→3, 4→2, 5→1
 
 **Visual Example:**
 
-**Customer	Days Since	Rank (Ascending)	Scaled (1-5)	After Reversal (6 - Scaled)	Final R Score**
-A (Best)	3 days	      1	                  1	           6 - 1 = 5	                5 ✓
-B	        7 days      	2	                  2	           6 - 2 = 4                 	4
-C	        12 days	      3	                  3            6 - 3 = 3	                3
-D	        20 days	      4	                  4	           6 - 4 = 2	                2
-E (Worst)	45 days      	5	                  5	           6 - 5 = 1	                1 ✓
+**Customer	     Days Since  	Rank (Ascending)	   Scaled (1-5)	  After Reversal (6 - Scaled)   	Final R Score**
+A (Best)	      3 days	       1	                  1	             6 - 1 = 5	                      5 ✓
+B	             7 days        2	                  2	             6 - 2 = 4                       4
+C	             12 days	      3	                  3              6 - 3 = 3	                      3
+D	             20 days	      4	                  4	             6 - 4 = 2	                      2
+E (Worst)	     45 days       5	                  5	             6 - 5 = 1	                      1 ✓
 
 **Memory Aid:** "Recency is the odd one out – it needs reversal. Frequency and Monetary are twins – they work the same way."
 
@@ -74,25 +74,28 @@ E (Worst)	45 days      	5	                  5	           6 - 5 = 1	             
 
 **Segment	        Typical RFM Code	         Characteristics	               Recommended Action**
 Champions     	   555, 544, 545, 454, 455	   Bought recently, buy often, 
-                                            spend the most                  VIP treatment, early access to new products,                                                                                loyalty rewards
-Loyal Customers	     445, 444, 435	            Buy regularly and spend well, 
+                                            spend the most                   VIP treatment, early access to new products,                                                                               loyalty rewards
+Loyal Customers	     445, 444, 435	         Buy regularly and spend well, 
                                             but maybe not the most recent	    Encourage frequency, cross-sell, ask for                                                                                   referrals
 Potential Loyalists	  354, 345, 344	        Recent and frequent but moderate 
-                                             spending	                        Nurture with targeted offers to increase                                                                                   basket size
+                                            spending	                        Nurture with targeted offers to increase                                                                                   basket size
 New Customers	       511, 411, 422	         Bought very recently but low
                                              frequency and spending          	Welcome series, education about products,                                                                                  second-purchase incentives
 At Risk              155, 144, 133	         Used to be good (high F & M) 
                                            but haven't bought lately	        Win-back campaigns, special discounts, re-                                                                                 engagement emails
 Lost	               111, 112, 121	        Haven't bought in long time, 
-                                            low frequency, low spending      	Last resort re-engagement or remove from                                                                                   active marketing lists                                     
-    **Methodology**                                        
+                                            low frequency, low spending      	Last resort re-engagement or remove from                                                                                   active marketing lists                        **Methodology**                                        
                                             
 Step 1: Data Cleaning
+
         ↓
 Step 2: Calculate Days Since Last Purchase
+
         ↓
 Step 3: Calculate Raw Ranks (R, F, M)
+
         ↓
 Step 4: Scale Ranks to 1-5 and Reverse Recency
+
         ↓
 Step 5: Generate RFM Codes and Assign Segments
