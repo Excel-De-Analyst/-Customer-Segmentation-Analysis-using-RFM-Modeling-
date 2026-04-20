@@ -58,17 +58,6 @@ The Solution: Reverse the scale
 
 This flips 1→5, 2→4, 3→3, 4→2, 5→1
 
-**Visual Example:**
-
-**Customer	     Days Since  	Rank (Ascending)	   Scaled (1-5)	  After Reversal (6 - Scaled)   	Final R Score**
-A (Best)	      3 days	       1	                  1	             6 - 1 = 5	                      5 ✓
-B	             7 days        2	                  2	             6 - 2 = 4                       4
-C	             12 days	      3	                  3              6 - 3 = 3	                      3
-D	             20 days	      4	                  4	             6 - 4 = 2	                      2
-E (Worst)	     45 days       5	                  5	             6 - 5 = 1	                      1 ✓
-
-**Memory Aid:** "Recency is the odd one out – it needs reversal. Frequency and Monetary are twins – they work the same way."
-
 **Customer Segments Explained**
  After I have generated  RFM codes (three digits, each 1-5), we group customers into segments:
 
