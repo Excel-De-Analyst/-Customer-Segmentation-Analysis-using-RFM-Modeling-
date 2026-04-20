@@ -58,24 +58,7 @@ The Solution: Reverse the scale
 
 This flips 1→5, 2→4, 3→3, 4→2, 5→1
 
-**Customer Segments Explained**
- After I have generated  RFM codes (three digits, each 1-5), we group customers into segments:
-
-**Segment	        Typical RFM Code	         Characteristics	               Recommended Action**
-Champions     	   555, 544, 545, 454, 455	   Bought recently, buy often, 
-                                            spend the most                   VIP treatment, early access to new products,                                                                               loyalty rewards
-Loyal Customers	     445, 444, 435	         Buy regularly and spend well, 
-                                            but maybe not the most recent	    Encourage frequency, cross-sell, ask for                                                                                   referrals
-Potential Loyalists	  354, 345, 344	        Recent and frequent but moderate 
-                                            spending	                        Nurture with targeted offers to increase                                                                                   basket size
-New Customers	       511, 411, 422	         Bought very recently but low
-                                             frequency and spending          	Welcome series, education about products,                                                                                  second-purchase incentives
-At Risk              155, 144, 133	         Used to be good (high F & M) 
-                                           but haven't bought lately	        Win-back campaigns, special discounts, re-                                                                                 engagement emails
-Lost	               111, 112, 121	        Haven't bought in long time, 
-                                            low frequency, low spending      	Last resort re-engagement or remove from                                                                                   active marketing lists                       
-                                            
-                                            
+                                           
    **Methodology**                                        
                                             
 Step 1: Data Cleaning
