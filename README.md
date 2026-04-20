@@ -73,7 +73,10 @@ New Customers	       511, 411, 422	         Bought very recently but low
 At Risk              155, 144, 133	         Used to be good (high F & M) 
                                            but haven't bought lately	        Win-back campaigns, special discounts, re-                                                                                 engagement emails
 Lost	               111, 112, 121	        Haven't bought in long time, 
-                                            low frequency, low spending      	Last resort re-engagement or remove from                                                                                   active marketing lists                        **Methodology**                                        
+                                            low frequency, low spending      	Last resort re-engagement or remove from                                                                                   active marketing lists                       
+                                            
+                                            
+   **Methodology**                                        
                                             
 Step 1: Data Cleaning
 
